@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E752B65B9785A52E840016 /* Pods_Proyecto_Alex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262575ECBC06A48C3321F4CF /* Pods_Proyecto_Alex.framework */; };
+		478387427EA63C31949012BE /* Pods_Proyecto_AlexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F38F125123F0F52C0736413 /* Pods_Proyecto_AlexUITests.framework */; };
+		731253F4F42AEB0789436F2C /* Pods_Proyecto_AlexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808238091684C538EE29F29D /* Pods_Proyecto_AlexTests.framework */; };
+		FB47EC291F1E741A0060B6DF /* Reproductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47EC281F1E741A0060B6DF /* Reproductor.swift */; };
+		FB47EC3A1F1E742E0060B6DF /* 01 - Eraser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC2A1F1E742E0060B6DF /* 01 - Eraser.mp3 */; };
+		FB47EC3B1F1E742E0060B6DF /* 02 - Castle on the Hill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC2B1F1E742E0060B6DF /* 02 - Castle on the Hill.mp3 */; };
+		FB47EC3C1F1E742E0060B6DF /* 03 - Dive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC2C1F1E742E0060B6DF /* 03 - Dive.mp3 */; };
+		FB47EC3D1F1E742E0060B6DF /* 04 - Shape of You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC2D1F1E742E0060B6DF /* 04 - Shape of You.mp3 */; };
+		FB47EC3E1F1E742E0060B6DF /* 05 - Perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC2E1F1E742E0060B6DF /* 05 - Perfect.mp3 */; };
+		FB47EC3F1F1E742E0060B6DF /* 06 - Galway Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC2F1F1E742E0060B6DF /* 06 - Galway Girl.mp3 */; };
+		FB47EC401F1E742E0060B6DF /* 07 - Happier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC301F1E742E0060B6DF /* 07 - Happier.mp3 */; };
+		FB47EC411F1E742E0060B6DF /* 08 - New Man.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC311F1E742E0060B6DF /* 08 - New Man.mp3 */; };
+		FB47EC421F1E742E0060B6DF /* 09 - Hearts Don't Break Around Here.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC321F1E742E0060B6DF /* 09 - Hearts Don't Break Around Here.mp3 */; };
+		FB47EC431F1E742E0060B6DF /* 10 - What Do I Know.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC331F1E742E0060B6DF /* 10 - What Do I Know.mp3 */; };
+		FB47EC441F1E742E0060B6DF /* 11 - How Would You Feel (Paean).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC341F1E742E0060B6DF /* 11 - How Would You Feel (Paean).mp3 */; };
+		FB47EC451F1E742E0060B6DF /* 12 - Supermarket Flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC351F1E742E0060B6DF /* 12 - Supermarket Flowers.mp3 */; };
+		FB47EC461F1E742E0060B6DF /* 13 - Barcelona.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC361F1E742E0060B6DF /* 13 - Barcelona.mp3 */; };
+		FB47EC471F1E742E0060B6DF /* 14 - Bibia Be Ye Ye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC371F1E742E0060B6DF /* 14 - Bibia Be Ye Ye.mp3 */; };
+		FB47EC481F1E742E0060B6DF /* 15 - Nancy Mulligan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC381F1E742E0060B6DF /* 15 - Nancy Mulligan.mp3 */; };
+		FB47EC491F1E742E0060B6DF /* 16 - Save Myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB47EC391F1E742E0060B6DF /* 16 - Save Myself.mp3 */; };
+		FB47EC4C1F1E75FE0060B6DF /* ControladorCanciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47EC4B1F1E75FE0060B6DF /* ControladorCanciones.swift */; };
+		FB4FA71D1F161B84007F7762 /* ariana grande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7131F161B84007F7762 /* ariana grande.jpg */; };
+		FB4FA71E1F161B84007F7762 /* bruno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7141F161B84007F7762 /* bruno.jpg */; };
+		FB4FA71F1F161B84007F7762 /* bustamante.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7151F161B84007F7762 /* bustamante.jpg */; };
+		FB4FA7201F161B84007F7762 /* cnco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7161F161B84007F7762 /* cnco.jpg */; };
+		FB4FA7211F161B84007F7762 /* dani martin.png in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7171F161B84007F7762 /* dani martin.png */; };
+		FB4FA7221F161B84007F7762 /* david bisbal.png in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7181F161B84007F7762 /* david bisbal.png */; };
+		FB4FA7231F161B84007F7762 /* divide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7191F161B84007F7762 /* divide.jpg */; };
+		FB4FA7241F161B84007F7762 /* dvicio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA71A1F161B84007F7762 /* dvicio.jpg */; };
+		FB4FA7251F161B84007F7762 /* la oreja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA71B1F161B84007F7762 /* la oreja.jpg */; };
+		FB4FA7261F161B84007F7762 /* melendi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA71C1F161B84007F7762 /* melendi.jpg */; };
+		FB4FA7291F161B96007F7762 /* Shakira.png in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7271F161B96007F7762 /* Shakira.png */; };
+		FB4FA72A1F161B96007F7762 /* vanesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4FA7281F161B96007F7762 /* vanesa.jpg */; };
+		FB5B99421F05664900BEB8F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B99411F05664900BEB8F6 /* AppDelegate.swift */; };
+		FB5B99441F05664900BEB8F6 /* ControladorBusqueda.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B99431F05664900BEB8F6 /* ControladorBusqueda.swift */; };
+		FB5B994A1F05664900BEB8F6 /* Proyecto_Alex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB5B99481F05664900BEB8F6 /* Proyecto_Alex.xcdatamodeld */; };
+		FB5B994C1F05664900BEB8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5B994B1F05664900BEB8F6 /* Assets.xcassets */; };
+		FB5B994F1F05664900BEB8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5B994D1F05664900BEB8F6 /* LaunchScreen.storyboard */; };
+		FB5B995A1F05664900BEB8F6 /* Proyecto_AlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B99591F05664900BEB8F6 /* Proyecto_AlexTests.swift */; };
+		FB5B99651F05664900BEB8F6 /* Proyecto_AlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B99641F05664900BEB8F6 /* Proyecto_AlexUITests.swift */; };
+		FB5B99731F05668800BEB8F6 /* CeldaPerzonalizada.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B99721F05668800BEB8F6 /* CeldaPerzonalizada.swift */; };
+		FB5B99751F0566B500BEB8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5B99741F0566B500BEB8F6 /* Main.storyboard */; };
+		FB5B997D1F0569A200BEB8F6 /* Artista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B997A1F0569A200BEB8F6 /* Artista.swift */; };
+		FB5B997E1F0569A200BEB8F6 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B997B1F0569A200BEB8F6 /* Album.swift */; };
+		FB5B997F1F0569A200BEB8F6 /* Pista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B997C1F0569A200BEB8F6 /* Pista.swift */; };
+		FB5C5D1C1F0661DA00D70831 /* paisaje1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FB5C5D191F0661DA00D70831 /* paisaje1.jpeg */; };
+		FB5C5D1D1F0661DA00D70831 /* paisaje2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FB5C5D1A1F0661DA00D70831 /* paisaje2.jpeg */; };
+		FB5C5D1E1F0661DA00D70831 /* paisaje3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FB5C5D1B1F0661DA00D70831 /* paisaje3.jpeg */; };
+		FB5C5D201F066E0000D70831 /* paisaje4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FB5C5D1F1F066E0000D70831 /* paisaje4.jpeg */; };
+		FB5C5D221F06760F00D70831 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C5D211F06760F00D70831 /* Colores.swift */; };
+		FB6328C91F152D4A00047481 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6328C81F152D4A00047481 /* Singleton.swift */; };
+		FB6644601F0BEAA700DC9E36 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66445F1F0BEAA700DC9E36 /* Usuario.swift */; };
+		FB6644621F0BEC7500DC9E36 /* ControladorUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6644611F0BEC7500DC9E36 /* ControladorUsuario.swift */; };
+		FB705DBF1F0E8B62006BD329 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB705DBE1F0E8B62006BD329 /* MainViewController.swift */; };
+		FB705DC31F0E9AF8006BD329 /* PhotoGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB705DC21F0E9AF8006BD329 /* PhotoGridCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5B99561F05664900BEB8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5B99361F05664900BEB8F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5B993D1F05664900BEB8F6;
+			remoteInfo = "Proyecto Alex";
+		};
+		FB5B99611F05664900BEB8F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5B99361F05664900BEB8F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5B993D1F05664900BEB8F6;
+			remoteInfo = "Proyecto Alex";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F38F125123F0F52C0736413 /* Pods_Proyecto_AlexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Proyecto_AlexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1704626A49275F67A3AEEB2B /* Pods-Proyecto AlexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto AlexUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Proyecto AlexUITests/Pods-Proyecto AlexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		262575ECBC06A48C3321F4CF /* Pods_Proyecto_Alex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Proyecto_Alex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFF35F22DD1AF66B42CFBD9 /* Pods-Proyecto AlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto AlexTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Proyecto AlexTests/Pods-Proyecto AlexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B2F147B0F6B924D64D62A27 /* Pods-Proyecto Alex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto Alex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Proyecto Alex/Pods-Proyecto Alex.release.xcconfig"; sourceTree = "<group>"; };
+		808238091684C538EE29F29D /* Pods_Proyecto_AlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Proyecto_AlexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B77C204261A7B78A970AE12 /* Pods-Proyecto AlexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto AlexTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Proyecto AlexTests/Pods-Proyecto AlexTests.release.xcconfig"; sourceTree = "<group>"; };
+		B792C3CEE5D25C721AE04096 /* Pods-Proyecto Alex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto Alex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Proyecto Alex/Pods-Proyecto Alex.debug.xcconfig"; sourceTree = "<group>"; };
+		DA2DF92A368E390D61AFD1C3 /* Pods-Proyecto AlexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto AlexUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Proyecto AlexUITests/Pods-Proyecto AlexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB47EC281F1E741A0060B6DF /* Reproductor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reproductor.swift; sourceTree = "<group>"; };
+		FB47EC2A1F1E742E0060B6DF /* 01 - Eraser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 - Eraser.mp3"; sourceTree = "<group>"; };
+		FB47EC2B1F1E742E0060B6DF /* 02 - Castle on the Hill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 - Castle on the Hill.mp3"; sourceTree = "<group>"; };
+		FB47EC2C1F1E742E0060B6DF /* 03 - Dive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 - Dive.mp3"; sourceTree = "<group>"; };
+		FB47EC2D1F1E742E0060B6DF /* 04 - Shape of You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 - Shape of You.mp3"; sourceTree = "<group>"; };
+		FB47EC2E1F1E742E0060B6DF /* 05 - Perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 - Perfect.mp3"; sourceTree = "<group>"; };
+		FB47EC2F1F1E742E0060B6DF /* 06 - Galway Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 - Galway Girl.mp3"; sourceTree = "<group>"; };
+		FB47EC301F1E742E0060B6DF /* 07 - Happier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 - Happier.mp3"; sourceTree = "<group>"; };
+		FB47EC311F1E742E0060B6DF /* 08 - New Man.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 - New Man.mp3"; sourceTree = "<group>"; };
+		FB47EC321F1E742E0060B6DF /* 09 - Hearts Don't Break Around Here.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 - Hearts Don't Break Around Here.mp3"; sourceTree = "<group>"; };
+		FB47EC331F1E742E0060B6DF /* 10 - What Do I Know.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 - What Do I Know.mp3"; sourceTree = "<group>"; };
+		FB47EC341F1E742E0060B6DF /* 11 - How Would You Feel (Paean).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 - How Would You Feel (Paean).mp3"; sourceTree = "<group>"; };
+		FB47EC351F1E742E0060B6DF /* 12 - Supermarket Flowers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 - Supermarket Flowers.mp3"; sourceTree = "<group>"; };
+		FB47EC361F1E742E0060B6DF /* 13 - Barcelona.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 - Barcelona.mp3"; sourceTree = "<group>"; };
+		FB47EC371F1E742E0060B6DF /* 14 - Bibia Be Ye Ye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 - Bibia Be Ye Ye.mp3"; sourceTree = "<group>"; };
+		FB47EC381F1E742E0060B6DF /* 15 - Nancy Mulligan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 - Nancy Mulligan.mp3"; sourceTree = "<group>"; };
+		FB47EC391F1E742E0060B6DF /* 16 - Save Myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 - Save Myself.mp3"; sourceTree = "<group>"; };
+		FB47EC4B1F1E75FE0060B6DF /* ControladorCanciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControladorCanciones.swift; sourceTree = "<group>"; };
+		FB4FA7131F161B84007F7762 /* ariana grande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ariana grande.jpg"; sourceTree = "<group>"; };
+		FB4FA7141F161B84007F7762 /* bruno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bruno.jpg; sourceTree = "<group>"; };
+		FB4FA7151F161B84007F7762 /* bustamante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bustamante.jpg; sourceTree = "<group>"; };
+		FB4FA7161F161B84007F7762 /* cnco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cnco.jpg; sourceTree = "<group>"; };
+		FB4FA7171F161B84007F7762 /* dani martin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dani martin.png"; sourceTree = "<group>"; };
+		FB4FA7181F161B84007F7762 /* david bisbal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "david bisbal.png"; sourceTree = "<group>"; };
+		FB4FA7191F161B84007F7762 /* divide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = divide.jpg; sourceTree = "<group>"; };
+		FB4FA71A1F161B84007F7762 /* dvicio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dvicio.jpg; sourceTree = "<group>"; };
+		FB4FA71B1F161B84007F7762 /* la oreja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "la oreja.jpg"; sourceTree = "<group>"; };
+		FB4FA71C1F161B84007F7762 /* melendi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = melendi.jpg; sourceTree = "<group>"; };
+		FB4FA7271F161B96007F7762 /* Shakira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shakira.png; sourceTree = "<group>"; };
+		FB4FA7281F161B96007F7762 /* vanesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vanesa.jpg; sourceTree = "<group>"; };
+		FB5B993E1F05664900BEB8F6 /* Proyecto Alex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto Alex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5B99411F05664900BEB8F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB5B99431F05664900BEB8F6 /* ControladorBusqueda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorBusqueda.swift; sourceTree = "<group>"; };
+		FB5B99491F05664900BEB8F6 /* Proyecto_Alex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proyecto_Alex.xcdatamodel; sourceTree = "<group>"; };
+		FB5B994B1F05664900BEB8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB5B994E1F05664900BEB8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB5B99501F05664900BEB8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5B99551F05664900BEB8F6 /* Proyecto AlexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto AlexTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5B99591F05664900BEB8F6 /* Proyecto_AlexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_AlexTests.swift; sourceTree = "<group>"; };
+		FB5B995B1F05664900BEB8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5B99601F05664900BEB8F6 /* Proyecto AlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto AlexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5B99641F05664900BEB8F6 /* Proyecto_AlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proyecto_AlexUITests.swift; sourceTree = "<group>"; };
+		FB5B99661F05664900BEB8F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5B99721F05668800BEB8F6 /* CeldaPerzonalizada.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaPerzonalizada.swift; sourceTree = "<group>"; };
+		FB5B99741F0566B500BEB8F6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FB5B997A1F0569A200BEB8F6 /* Artista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artista.swift; sourceTree = "<group>"; };
+		FB5B997B1F0569A200BEB8F6 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		FB5B997C1F0569A200BEB8F6 /* Pista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pista.swift; sourceTree = "<group>"; };
+		FB5C5D191F0661DA00D70831 /* paisaje1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paisaje1.jpeg; sourceTree = "<group>"; };
+		FB5C5D1A1F0661DA00D70831 /* paisaje2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paisaje2.jpeg; sourceTree = "<group>"; };
+		FB5C5D1B1F0661DA00D70831 /* paisaje3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paisaje3.jpeg; sourceTree = "<group>"; };
+		FB5C5D1F1F066E0000D70831 /* paisaje4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paisaje4.jpeg; sourceTree = "<group>"; };
+		FB5C5D211F06760F00D70831 /* Colores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
+		FB6328C81F152D4A00047481 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		FB66445F1F0BEAA700DC9E36 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		FB6644611F0BEC7500DC9E36 /* ControladorUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControladorUsuario.swift; sourceTree = "<group>"; };
+		FB705DBE1F0E8B62006BD329 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB705DC21F0E9AF8006BD329 /* PhotoGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGridCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5B993B1F05664900BEB8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E752B65B9785A52E840016 /* Pods_Proyecto_Alex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B99521F05664900BEB8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731253F4F42AEB0789436F2C /* Pods_Proyecto_AlexTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B995D1F05664900BEB8F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478387427EA63C31949012BE /* Pods_Proyecto_AlexUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D72D205F06AA82FC4D37B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B792C3CEE5D25C721AE04096 /* Pods-Proyecto Alex.debug.xcconfig */,
+				7B2F147B0F6B924D64D62A27 /* Pods-Proyecto Alex.release.xcconfig */,
+				3CFF35F22DD1AF66B42CFBD9 /* Pods-Proyecto AlexTests.debug.xcconfig */,
+				9B77C204261A7B78A970AE12 /* Pods-Proyecto AlexTests.release.xcconfig */,
+				DA2DF92A368E390D61AFD1C3 /* Pods-Proyecto AlexUITests.debug.xcconfig */,
+				1704626A49275F67A3AEEB2B /* Pods-Proyecto AlexUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3712077B6E12FD89F3644D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262575ECBC06A48C3321F4CF /* Pods_Proyecto_Alex.framework */,
+				808238091684C538EE29F29D /* Pods_Proyecto_AlexTests.framework */,
+				0F38F125123F0F52C0736413 /* Pods_Proyecto_AlexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB47EC4A1F1E743C0060B6DF /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				FB47EC2A1F1E742E0060B6DF /* 01 - Eraser.mp3 */,
+				FB47EC2B1F1E742E0060B6DF /* 02 - Castle on the Hill.mp3 */,
+				FB47EC2C1F1E742E0060B6DF /* 03 - Dive.mp3 */,
+				FB47EC2D1F1E742E0060B6DF /* 04 - Shape of You.mp3 */,
+				FB47EC2E1F1E742E0060B6DF /* 05 - Perfect.mp3 */,
+				FB47EC2F1F1E742E0060B6DF /* 06 - Galway Girl.mp3 */,
+				FB47EC301F1E742E0060B6DF /* 07 - Happier.mp3 */,
+				FB47EC311F1E742E0060B6DF /* 08 - New Man.mp3 */,
+				FB47EC321F1E742E0060B6DF /* 09 - Hearts Don't Break Around Here.mp3 */,
+				FB47EC331F1E742E0060B6DF /* 10 - What Do I Know.mp3 */,
+				FB47EC341F1E742E0060B6DF /* 11 - How Would You Feel (Paean).mp3 */,
+				FB47EC351F1E742E0060B6DF /* 12 - Supermarket Flowers.mp3 */,
+				FB47EC361F1E742E0060B6DF /* 13 - Barcelona.mp3 */,
+				FB47EC371F1E742E0060B6DF /* 14 - Bibia Be Ye Ye.mp3 */,
+				FB47EC381F1E742E0060B6DF /* 15 - Nancy Mulligan.mp3 */,
+				FB47EC391F1E742E0060B6DF /* 16 - Save Myself.mp3 */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
+		FB5B99351F05664900BEB8F6 = {
+			isa = PBXGroup;
+			children = (
+				FB5B99401F05664900BEB8F6 /* Proyecto Alex */,
+				FB5B99581F05664900BEB8F6 /* Proyecto AlexTests */,
+				FB5B99631F05664900BEB8F6 /* Proyecto AlexUITests */,
+				FB5B993F1F05664900BEB8F6 /* Products */,
+				83D72D205F06AA82FC4D37B0 /* Pods */,
+				A3712077B6E12FD89F3644D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5B993F1F05664900BEB8F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B993E1F05664900BEB8F6 /* Proyecto Alex.app */,
+				FB5B99551F05664900BEB8F6 /* Proyecto AlexTests.xctest */,
+				FB5B99601F05664900BEB8F6 /* Proyecto AlexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5B99401F05664900BEB8F6 /* Proyecto Alex */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B99411F05664900BEB8F6 /* AppDelegate.swift */,
+				FB5B99791F05695800BEB8F6 /* Controlador */,
+				FB5B99781F05694F00BEB8F6 /* Vista */,
+				FB47EC4A1F1E743C0060B6DF /* Songs */,
+				FB5B99771F05694100BEB8F6 /* Modelo */,
+				FB5B994B1F05664900BEB8F6 /* Assets.xcassets */,
+				FB5B99501F05664900BEB8F6 /* Info.plist */,
+				FB5B99481F05664900BEB8F6 /* Proyecto_Alex.xcdatamodeld */,
+			);
+			path = "Proyecto Alex";
+			sourceTree = "<group>";
+		};
+		FB5B99581F05664900BEB8F6 /* Proyecto AlexTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B99591F05664900BEB8F6 /* Proyecto_AlexTests.swift */,
+				FB5B995B1F05664900BEB8F6 /* Info.plist */,
+			);
+			path = "Proyecto AlexTests";
+			sourceTree = "<group>";
+		};
+		FB5B99631F05664900BEB8F6 /* Proyecto AlexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B99641F05664900BEB8F6 /* Proyecto_AlexUITests.swift */,
+				FB5B99661F05664900BEB8F6 /* Info.plist */,
+			);
+			path = "Proyecto AlexUITests";
+			sourceTree = "<group>";
+		};
+		FB5B99771F05694100BEB8F6 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B997A1F0569A200BEB8F6 /* Artista.swift */,
+				FB5B997B1F0569A200BEB8F6 /* Album.swift */,
+				FB5B997C1F0569A200BEB8F6 /* Pista.swift */,
+				FB5B99721F05668800BEB8F6 /* CeldaPerzonalizada.swift */,
+				FB5C5D211F06760F00D70831 /* Colores.swift */,
+				FB66445F1F0BEAA700DC9E36 /* Usuario.swift */,
+				FB705DC21F0E9AF8006BD329 /* PhotoGridCell.swift */,
+				FB6328C81F152D4A00047481 /* Singleton.swift */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+		FB5B99781F05694F00BEB8F6 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				FB4FA7131F161B84007F7762 /* ariana grande.jpg */,
+				FB4FA7141F161B84007F7762 /* bruno.jpg */,
+				FB4FA7151F161B84007F7762 /* bustamante.jpg */,
+				FB4FA7161F161B84007F7762 /* cnco.jpg */,
+				FB4FA7171F161B84007F7762 /* dani martin.png */,
+				FB4FA7181F161B84007F7762 /* david bisbal.png */,
+				FB4FA7191F161B84007F7762 /* divide.jpg */,
+				FB4FA71A1F161B84007F7762 /* dvicio.jpg */,
+				FB4FA71B1F161B84007F7762 /* la oreja.jpg */,
+				FB4FA71C1F161B84007F7762 /* melendi.jpg */,
+				FB4FA7271F161B96007F7762 /* Shakira.png */,
+				FB4FA7281F161B96007F7762 /* vanesa.jpg */,
+				FB5C5D191F0661DA00D70831 /* paisaje1.jpeg */,
+				FB5C5D1A1F0661DA00D70831 /* paisaje2.jpeg */,
+				FB5C5D1B1F0661DA00D70831 /* paisaje3.jpeg */,
+				FB5C5D1F1F066E0000D70831 /* paisaje4.jpeg */,
+				FB5B99741F0566B500BEB8F6 /* Main.storyboard */,
+				FB5B994D1F05664900BEB8F6 /* LaunchScreen.storyboard */,
+			);
+			name = Vista;
+			sourceTree = "<group>";
+		};
+		FB5B99791F05695800BEB8F6 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				FB47EC4B1F1E75FE0060B6DF /* ControladorCanciones.swift */,
+				FB5B99431F05664900BEB8F6 /* ControladorBusqueda.swift */,
+				FB6644611F0BEC7500DC9E36 /* ControladorUsuario.swift */,
+				FB705DBE1F0E8B62006BD329 /* MainViewController.swift */,
+				FB47EC281F1E741A0060B6DF /* Reproductor.swift */,
+			);
+			name = Controlador;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5B993D1F05664900BEB8F6 /* Proyecto Alex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5B99691F05664900BEB8F6 /* Build configuration list for PBXNativeTarget "Proyecto Alex" */;
+			buildPhases = (
+				904F525D0AD7899EFA6A2CBB /* [CP] Check Pods Manifest.lock */,
+				FB5B993A1F05664900BEB8F6 /* Sources */,
+				FB5B993B1F05664900BEB8F6 /* Frameworks */,
+				FB5B993C1F05664900BEB8F6 /* Resources */,
+				4FFC221A494236F22E7AB91F /* [CP] Embed Pods Frameworks */,
+				B3F25B39062AB2414C3328AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proyecto Alex";
+			productName = "Proyecto Alex";
+			productReference = FB5B993E1F05664900BEB8F6 /* Proyecto Alex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5B99541F05664900BEB8F6 /* Proyecto AlexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5B996C1F05664900BEB8F6 /* Build configuration list for PBXNativeTarget "Proyecto AlexTests" */;
+			buildPhases = (
+				E54ED554FE7A057DA552AF82 /* [CP] Check Pods Manifest.lock */,
+				FB5B99511F05664900BEB8F6 /* Sources */,
+				FB5B99521F05664900BEB8F6 /* Frameworks */,
+				FB5B99531F05664900BEB8F6 /* Resources */,
+				898AA36247758B66CAE74EE2 /* [CP] Embed Pods Frameworks */,
+				426D80F0E01B1DE00C4E936E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5B99571F05664900BEB8F6 /* PBXTargetDependency */,
+			);
+			name = "Proyecto AlexTests";
+			productName = "Proyecto AlexTests";
+			productReference = FB5B99551F05664900BEB8F6 /* Proyecto AlexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB5B995F1F05664900BEB8F6 /* Proyecto AlexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5B996F1F05664900BEB8F6 /* Build configuration list for PBXNativeTarget "Proyecto AlexUITests" */;
+			buildPhases = (
+				F0CD84987FE690168A22E247 /* [CP] Check Pods Manifest.lock */,
+				FB5B995C1F05664900BEB8F6 /* Sources */,
+				FB5B995D1F05664900BEB8F6 /* Frameworks */,
+				FB5B995E1F05664900BEB8F6 /* Resources */,
+				16887B466A8F051186D66F14 /* [CP] Embed Pods Frameworks */,
+				74CCE557FC20D66A2C592C43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5B99621F05664900BEB8F6 /* PBXTargetDependency */,
+			);
+			name = "Proyecto AlexUITests";
+			productName = "Proyecto AlexUITests";
+			productReference = FB5B99601F05664900BEB8F6 /* Proyecto AlexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5B99361F05664900BEB8F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FB5B993D1F05664900BEB8F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FB5B99541F05664900BEB8F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5B993D1F05664900BEB8F6;
+					};
+					FB5B995F1F05664900BEB8F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB5B993D1F05664900BEB8F6;
+					};
+				};
+			};
+			buildConfigurationList = FB5B99391F05664900BEB8F6 /* Build configuration list for PBXProject "Proyecto Alex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5B99351F05664900BEB8F6;
+			productRefGroup = FB5B993F1F05664900BEB8F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5B993D1F05664900BEB8F6 /* Proyecto Alex */,
+				FB5B99541F05664900BEB8F6 /* Proyecto AlexTests */,
+				FB5B995F1F05664900BEB8F6 /* Proyecto AlexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5B993C1F05664900BEB8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB47EC481F1E742E0060B6DF /* 15 - Nancy Mulligan.mp3 in Resources */,
+				FB47EC431F1E742E0060B6DF /* 10 - What Do I Know.mp3 in Resources */,
+				FB4FA7241F161B84007F7762 /* dvicio.jpg in Resources */,
+				FB5C5D1D1F0661DA00D70831 /* paisaje2.jpeg in Resources */,
+				FB5C5D1E1F0661DA00D70831 /* paisaje3.jpeg in Resources */,
+				FB4FA71E1F161B84007F7762 /* bruno.jpg in Resources */,
+				FB4FA7201F161B84007F7762 /* cnco.jpg in Resources */,
+				FB4FA71F1F161B84007F7762 /* bustamante.jpg in Resources */,
+				FB4FA7261F161B84007F7762 /* melendi.jpg in Resources */,
+				FB47EC461F1E742E0060B6DF /* 13 - Barcelona.mp3 in Resources */,
+				FB47EC3F1F1E742E0060B6DF /* 06 - Galway Girl.mp3 in Resources */,
+				FB47EC491F1E742E0060B6DF /* 16 - Save Myself.mp3 in Resources */,
+				FB47EC421F1E742E0060B6DF /* 09 - Hearts Don't Break Around Here.mp3 in Resources */,
+				FB47EC471F1E742E0060B6DF /* 14 - Bibia Be Ye Ye.mp3 in Resources */,
+				FB47EC411F1E742E0060B6DF /* 08 - New Man.mp3 in Resources */,
+				FB4FA7211F161B84007F7762 /* dani martin.png in Resources */,
+				FB5B99751F0566B500BEB8F6 /* Main.storyboard in Resources */,
+				FB47EC3D1F1E742E0060B6DF /* 04 - Shape of You.mp3 in Resources */,
+				FB47EC3C1F1E742E0060B6DF /* 03 - Dive.mp3 in Resources */,
+				FB47EC451F1E742E0060B6DF /* 12 - Supermarket Flowers.mp3 in Resources */,
+				FB47EC3A1F1E742E0060B6DF /* 01 - Eraser.mp3 in Resources */,
+				FB4FA7221F161B84007F7762 /* david bisbal.png in Resources */,
+				FB4FA7251F161B84007F7762 /* la oreja.jpg in Resources */,
+				FB4FA7231F161B84007F7762 /* divide.jpg in Resources */,
+				FB5B994F1F05664900BEB8F6 /* LaunchScreen.storyboard in Resources */,
+				FB5C5D201F066E0000D70831 /* paisaje4.jpeg in Resources */,
+				FB47EC3E1F1E742E0060B6DF /* 05 - Perfect.mp3 in Resources */,
+				FB4FA71D1F161B84007F7762 /* ariana grande.jpg in Resources */,
+				FB5B994C1F05664900BEB8F6 /* Assets.xcassets in Resources */,
+				FB47EC401F1E742E0060B6DF /* 07 - Happier.mp3 in Resources */,
+				FB47EC3B1F1E742E0060B6DF /* 02 - Castle on the Hill.mp3 in Resources */,
+				FB47EC441F1E742E0060B6DF /* 11 - How Would You Feel (Paean).mp3 in Resources */,
+				FB4FA72A1F161B96007F7762 /* vanesa.jpg in Resources */,
+				FB5C5D1C1F0661DA00D70831 /* paisaje1.jpeg in Resources */,
+				FB4FA7291F161B96007F7762 /* Shakira.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B99531F05664900BEB8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B995E1F05664900BEB8F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16887B466A8F051186D66F14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proyecto AlexUITests/Pods-Proyecto AlexUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		426D80F0E01B1DE00C4E936E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proyecto AlexTests/Pods-Proyecto AlexTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FFC221A494236F22E7AB91F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proyecto Alex/Pods-Proyecto Alex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CCE557FC20D66A2C592C43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proyecto AlexUITests/Pods-Proyecto AlexUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898AA36247758B66CAE74EE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proyecto AlexTests/Pods-Proyecto AlexTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904F525D0AD7899EFA6A2CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F25B39062AB2414C3328AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Proyecto Alex/Pods-Proyecto Alex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54ED554FE7A057DA552AF82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CD84987FE690168A22E247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5B993A1F05664900BEB8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5B99731F05668800BEB8F6 /* CeldaPerzonalizada.swift in Sources */,
+				FB6328C91F152D4A00047481 /* Singleton.swift in Sources */,
+				FB5C5D221F06760F00D70831 /* Colores.swift in Sources */,
+				FB47EC291F1E741A0060B6DF /* Reproductor.swift in Sources */,
+				FB5B997F1F0569A200BEB8F6 /* Pista.swift in Sources */,
+				FB5B99441F05664900BEB8F6 /* ControladorBusqueda.swift in Sources */,
+				FB5B997D1F0569A200BEB8F6 /* Artista.swift in Sources */,
+				FB5B994A1F05664900BEB8F6 /* Proyecto_Alex.xcdatamodeld in Sources */,
+				FB5B99421F05664900BEB8F6 /* AppDelegate.swift in Sources */,
+				FB705DC31F0E9AF8006BD329 /* PhotoGridCell.swift in Sources */,
+				FB705DBF1F0E8B62006BD329 /* MainViewController.swift in Sources */,
+				FB6644621F0BEC7500DC9E36 /* ControladorUsuario.swift in Sources */,
+				FB6644601F0BEAA700DC9E36 /* Usuario.swift in Sources */,
+				FB5B997E1F0569A200BEB8F6 /* Album.swift in Sources */,
+				FB47EC4C1F1E75FE0060B6DF /* ControladorCanciones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B99511F05664900BEB8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5B995A1F05664900BEB8F6 /* Proyecto_AlexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B995C1F05664900BEB8F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5B99651F05664900BEB8F6 /* Proyecto_AlexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5B99571F05664900BEB8F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5B993D1F05664900BEB8F6 /* Proyecto Alex */;
+			targetProxy = FB5B99561F05664900BEB8F6 /* PBXContainerItemProxy */;
+		};
+		FB5B99621F05664900BEB8F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5B993D1F05664900BEB8F6 /* Proyecto Alex */;
+			targetProxy = FB5B99611F05664900BEB8F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5B994D1F05664900BEB8F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5B994E1F05664900BEB8F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5B99671F05664900BEB8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB5B99681F05664900BEB8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5B996A1F05664900BEB8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B792C3CEE5D25C721AE04096 /* Pods-Proyecto Alex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Proyecto Alex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEAI.Proyecto-Alex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB5B996B1F05664900BEB8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2F147B0F6B924D64D62A27 /* Pods-Proyecto Alex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Proyecto Alex/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEAI.Proyecto-Alex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB5B996D1F05664900BEB8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFF35F22DD1AF66B42CFBD9 /* Pods-Proyecto AlexTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Proyecto AlexTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEAI.Proyecto-AlexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proyecto Alex.app/Proyecto Alex";
+			};
+			name = Debug;
+		};
+		FB5B996E1F05664900BEB8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B77C204261A7B78A970AE12 /* Pods-Proyecto AlexTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Proyecto AlexTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEAI.Proyecto-AlexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proyecto Alex.app/Proyecto Alex";
+			};
+			name = Release;
+		};
+		FB5B99701F05664900BEB8F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2DF92A368E390D61AFD1C3 /* Pods-Proyecto AlexUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Proyecto AlexUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEAI.Proyecto-AlexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Proyecto Alex";
+			};
+			name = Debug;
+		};
+		FB5B99711F05664900BEB8F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1704626A49275F67A3AEEB2B /* Pods-Proyecto AlexUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Proyecto AlexUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEAI.Proyecto-AlexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Proyecto Alex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5B99391F05664900BEB8F6 /* Build configuration list for PBXProject "Proyecto Alex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5B99671F05664900BEB8F6 /* Debug */,
+				FB5B99681F05664900BEB8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5B99691F05664900BEB8F6 /* Build configuration list for PBXNativeTarget "Proyecto Alex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5B996A1F05664900BEB8F6 /* Debug */,
+				FB5B996B1F05664900BEB8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5B996C1F05664900BEB8F6 /* Build configuration list for PBXNativeTarget "Proyecto AlexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5B996D1F05664900BEB8F6 /* Debug */,
+				FB5B996E1F05664900BEB8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5B996F1F05664900BEB8F6 /* Build configuration list for PBXNativeTarget "Proyecto AlexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5B99701F05664900BEB8F6 /* Debug */,
+				FB5B99711F05664900BEB8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB5B99481F05664900BEB8F6 /* Proyecto_Alex.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB5B99491F05664900BEB8F6 /* Proyecto_Alex.xcdatamodel */,
+			);
+			currentVersion = FB5B99491F05664900BEB8F6 /* Proyecto_Alex.xcdatamodel */;
+			path = Proyecto_Alex.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB5B99361F05664900BEB8F6 /* Project object */;
+}

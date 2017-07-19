@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ECAA3D4ED1AD8FD0359B62F8A13C76 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39209A589C66C446B548777A67DA1479 /* SwipeTableViewCell.swift */; };
+		069FBCF1C817E650B842DB928D80EF05 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367E7287EBB7743054680B903AADF19B /* SwipeActionsView.swift */; };
+		188E2DCF73D53B207DAAC93FDF2ECC21 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C31400E9B695E5CB54CDD335114AE5 /* SwipeTransitionLayout.swift */; };
+		1EB1AAACFB06E47A4895F528A0AF7CB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		27CB50E3CABD6EA88BBE0282DA4BE7BD /* Pods-Proyecto AlexUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850864F01C64FE429B44EE1B65603878 /* Pods-Proyecto AlexUITests-dummy.m */; };
+		36F5D0800D68443CCF65374211228ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		37AD4125F7AC987EF1F27F7D2D13DB2C /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1D1592ECEF00C3A0562239D55407B7 /* SwipeFeedback.swift */; };
+		37F407FEB50BC5C6C492B81E03C763BB /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2829416849E85C4C92028CDCDE34DC7B /* SwipeTableViewCell+Display.swift */; };
+		3B10641CFFB32AF4AE332C44778293AC /* SwipeTableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A14704BF8FEDF1708BA6BC55B42861 /* SwipeTableOptions.swift */; };
+		5820128C9156A095A7D5AE5E02D3462E /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC52D77CEFE6D2943D125B6B7DB44DC4 /* SwipeExpansionStyle.swift */; };
+		5EFC5E157EEA541D49847D7500A1E3C8 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3106D6D8A48027D978A26A249406E7 /* SwipeActionTransitioning.swift */; };
+		5F208C7034CD889B2FAE0A9069A3405A /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FE5BBDB83CD49D79B03FCF72E886A /* SwipeAction.swift */; };
+		639AFC689C0FA314B270CA1B568FA54B /* Pods-Proyecto AlexTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FB7F1D90292187E8A640307A869200 /* Pods-Proyecto AlexTests-dummy.m */; };
+		6A8A8F53DBF02B321F839BC7634E782D /* Pods-Proyecto Alex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC87922FF074CF95F4B3F3F09782CCED /* Pods-Proyecto Alex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		710E2385B4194558668CC59760950E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7567D8CE79371EB5F0E03236AB6BC863 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EABE984EFA9205F396C09F5013AE7FB7 /* SwipeCellKit-dummy.m */; };
+		76991F7644ADD9B98915CE1DEACE580B /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF25974A17E33FB8DBF6D0A3DD6BE04B /* SwipeExpanding.swift */; };
+		7F5A7F4D38F00B6A851B64E7F421B4F6 /* Pods-Proyecto AlexUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70301BCA1A3697ED2ACED0F5DB8F942F /* Pods-Proyecto AlexUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FEE4EBB327D59B033095F40E64215BD /* Pods-Proyecto Alex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A5DB29D9FDCCC5534D8E25AA56F37 /* Pods-Proyecto Alex-dummy.m */; };
+		99ABE16A6014590830D77A2A40F34DB6 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8177AAE9030EB5F51BF73C368994427 /* SwipeAnimator.swift */; };
+		9D170C54B8C3BF99F600C8863AA8A6E7 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E0E3E16C4692FDE9B8A2129392262C /* Swipeable.swift */; };
+		B5303D5F36BD7E78A7243310794D5AB2 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4035651F097DA7497D51A519359922 /* SwipeTableViewCellDelegate.swift */; };
+		B67C045B86B9110D6719737410A08B83 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5752C7479C83CFAEB29F3E900DAC6B4 /* SwipeActionButton.swift */; };
+		CAC154CC14D9A7A6032575CAE6A11B94 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8469DAB91A3EA7172BD5E86232AC50 /* Extensions.swift */; };
+		DD99DA0ED5CC54DDD6E3E62B26FD2BD6 /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B119976538BA19481553498F868407 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0977DF4BB45C9CB06168A23667D21DD /* Pods-Proyecto AlexTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A167055DC3AC0E02B5D1BBFCA3218C12 /* Pods-Proyecto AlexTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E76BD1EFC8F7596B86BB720884141599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F195C43CCBB8E718545C8CC4BD937CBF /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CC467AE1E0B837961BAB0963783E4 /* SwipeTableViewCell+Accessibility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2027116AE4093E8719C2A39472737230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E75E74742285F47593AB60F4CC109501;
+			remoteInfo = SwipeCellKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C92CD1E750E50EA7848DE17EBB539E /* Pods-Proyecto AlexUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Proyecto AlexUITests-frameworks.sh"; sourceTree = "<group>"; };
+		05C543E9145E90308AE2E3FD15A9F988 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		0B5DE5F9AC0056AF47BE4585006F9D69 /* Pods-Proyecto Alex-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Proyecto Alex-resources.sh"; sourceTree = "<group>"; };
+		0D8469DAB91A3EA7172BD5E86232AC50 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
+		0ECFC3969496B9418BB977C11B468930 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2CC467AE1E0B837961BAB0963783E4 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		12671ACEB5BD4968ABCD2F54F09D9D31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C062464E9DF2F945F0CA0DC366F0B3F /* Pods-Proyecto Alex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Proyecto Alex.debug.xcconfig"; sourceTree = "<group>"; };
+		1F8A5DB29D9FDCCC5534D8E25AA56F37 /* Pods-Proyecto Alex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Proyecto Alex-dummy.m"; sourceTree = "<group>"; };
+		239005CFB2D6919BC94A24E1AFBF224C /* Pods-Proyecto AlexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Proyecto AlexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2757A1C2D71AC12343E9E8B99F387273 /* Pods-Proyecto Alex-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Proyecto Alex-acknowledgements.plist"; sourceTree = "<group>"; };
+		2829416849E85C4C92028CDCDE34DC7B /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		2B00A80AB5E8AADF94F003FAD2068B48 /* Pods-Proyecto AlexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Proyecto AlexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E4035651F097DA7497D51A519359922 /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		367E7287EBB7743054680B903AADF19B /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
+		39209A589C66C446B548777A67DA1479 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		3A3106D6D8A48027D978A26A249406E7 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		42A14704BF8FEDF1708BA6BC55B42861 /* SwipeTableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableOptions.swift; path = Source/SwipeTableOptions.swift; sourceTree = "<group>"; };
+		454572CEC575CB0FB0876317D71BEF9D /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
+		500EB99FDC28A99E8E9CA7050CF0F15C /* Pods_Proyecto_AlexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Proyecto_AlexTests.framework; path = "Pods-Proyecto AlexTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C85E3A24E08A8EB1515782C2D1FE00 /* Pods-Proyecto Alex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Proyecto Alex.modulemap"; sourceTree = "<group>"; };
+		5A72446AFF46F01A15AE031F524E37D1 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		61FC356E1A380B1D13051138D7D32A25 /* SwipeCellKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.xcconfig; sourceTree = "<group>"; };
+		630BCDA67843FC89E4A53A46DE5EFD06 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C1581800CC5B6D729C9428EA514B054 /* Pods-Proyecto AlexUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Proyecto AlexUITests.modulemap"; sourceTree = "<group>"; };
+		70301BCA1A3697ED2ACED0F5DB8F942F /* Pods-Proyecto AlexUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Proyecto AlexUITests-umbrella.h"; sourceTree = "<group>"; };
+		72289BE171A447915298DCD201CFF93E /* Pods-Proyecto AlexTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Proyecto AlexTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		72825CF2E6C5FF2BBAC4D9D520745DE2 /* Pods-Proyecto AlexUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Proyecto AlexUITests-resources.sh"; sourceTree = "<group>"; };
+		74937367D33BF35CC5BCEF9AC8AA7F3B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		788F08D9E6F86BAC434C5884D3CCBD3E /* Pods-Proyecto AlexTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Proyecto AlexTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B7C55E773F90825647E752DDBBD22A3 /* Pods-Proyecto Alex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Proyecto Alex.release.xcconfig"; sourceTree = "<group>"; };
+		80BDEDEA560D6861EA00E735B9E2CB8D /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		822F95EBD69864EC3C420FE0D9AEC0C8 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		84C31400E9B695E5CB54CDD335114AE5 /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		850864F01C64FE429B44EE1B65603878 /* Pods-Proyecto AlexUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Proyecto AlexUITests-dummy.m"; sourceTree = "<group>"; };
+		89E0E3E16C4692FDE9B8A2129392262C /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AD93D85BE7BC8A8308EAA3D1AFBEB9 /* Pods-Proyecto Alex-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Proyecto Alex-frameworks.sh"; sourceTree = "<group>"; };
+		96BFA6881518201C4D8017C846FC47EA /* Pods-Proyecto AlexTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Proyecto AlexTests-resources.sh"; sourceTree = "<group>"; };
+		975FE5BBDB83CD49D79B03FCF72E886A /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		996435E892E37DAE2E6ACA413ADAEEC3 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		A014487F32A1FA20E145E7130C9FDD8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A167055DC3AC0E02B5D1BBFCA3218C12 /* Pods-Proyecto AlexTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Proyecto AlexTests-umbrella.h"; sourceTree = "<group>"; };
+		A1D4F4B9A39C83D36DFB7EB8F474ED6D /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
+		A8177AAE9030EB5F51BF73C368994427 /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		AB1D1592ECEF00C3A0562239D55407B7 /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		AF25974A17E33FB8DBF6D0A3DD6BE04B /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
+		C9FB7F1D90292187E8A640307A869200 /* Pods-Proyecto AlexTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Proyecto AlexTests-dummy.m"; sourceTree = "<group>"; };
+		CC3A8A8E6262CE10B64E3707DC90E6A5 /* Pods-Proyecto AlexUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Proyecto AlexUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC78FB2D2FA8F9FE8EFDE9DABFD13B13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B119976538BA19481553498F868407 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
+		D5F874158D120687A0F744BEF910760B /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		D649C5FC6AAA8FFFFE81C352D9E0C0FB /* Pods-Proyecto AlexTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Proyecto AlexTests.modulemap"; sourceTree = "<group>"; };
+		D7B92405CB8F4981E17938A69AE04142 /* Pods-Proyecto AlexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Proyecto AlexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9310F6A307CAB78E340E9F396E387C8 /* Pods-Proyecto AlexTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Proyecto AlexTests-frameworks.sh"; sourceTree = "<group>"; };
+		DA7813F268536A7241B5F5D7C1182FAE /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		DC52D77CEFE6D2943D125B6B7DB44DC4 /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		DC87922FF074CF95F4B3F3F09782CCED /* Pods-Proyecto Alex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Proyecto Alex-umbrella.h"; sourceTree = "<group>"; };
+		E473354F95CCB1456B2F98C1D1B48386 /* Pods_Proyecto_Alex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Proyecto_Alex.framework; path = "Pods-Proyecto Alex.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F80BAF81D7D34D72814FD3A7F1279F /* Pods_Proyecto_AlexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Proyecto_AlexUITests.framework; path = "Pods-Proyecto AlexUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55734F71955A1E03F1E7838EBF148CB /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		E5752C7479C83CFAEB29F3E900DAC6B4 /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		E6065A25B03E14EC83A876902414D2CE /* Pods-Proyecto Alex-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Proyecto Alex-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EABE984EFA9205F396C09F5013AE7FB7 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		ED057CA43C02587F5A0FF33D09132EF0 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		F0398AE5D0A3C308D24F6E7F4D1E7769 /* Pods-Proyecto AlexUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Proyecto AlexUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3880D0BC2572436F0F75F10A2B30844 /* Pods-Proyecto AlexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Proyecto AlexTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEF5F316B950FA5E990F7B1102768C4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EF743667DB12B9C72418381C1BD9C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710E2385B4194558668CC59760950E88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6C5E265EAA687E44D80CDA9F871414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F5D0800D68443CCF65374211228ABD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120A9948D9EB275943D588F3135E691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76BD1EFC8F7596B86BB720884141599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F66B04A191FFDBDCA6D0797B063AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EB1AAACFB06E47A4895F528A0AF7CB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041D738AA66365EDA1F51690A6E6D3EF /* Pods-Proyecto AlexTests */ = {
+			isa = PBXGroup;
+			children = (
+				A014487F32A1FA20E145E7130C9FDD8C /* Info.plist */,
+				D649C5FC6AAA8FFFFE81C352D9E0C0FB /* Pods-Proyecto AlexTests.modulemap */,
+				788F08D9E6F86BAC434C5884D3CCBD3E /* Pods-Proyecto AlexTests-acknowledgements.markdown */,
+				72289BE171A447915298DCD201CFF93E /* Pods-Proyecto AlexTests-acknowledgements.plist */,
+				C9FB7F1D90292187E8A640307A869200 /* Pods-Proyecto AlexTests-dummy.m */,
+				D9310F6A307CAB78E340E9F396E387C8 /* Pods-Proyecto AlexTests-frameworks.sh */,
+				96BFA6881518201C4D8017C846FC47EA /* Pods-Proyecto AlexTests-resources.sh */,
+				A167055DC3AC0E02B5D1BBFCA3218C12 /* Pods-Proyecto AlexTests-umbrella.h */,
+				239005CFB2D6919BC94A24E1AFBF224C /* Pods-Proyecto AlexTests.debug.xcconfig */,
+				F3880D0BC2572436F0F75F10A2B30844 /* Pods-Proyecto AlexTests.release.xcconfig */,
+			);
+			name = "Pods-Proyecto AlexTests";
+			path = "Target Support Files/Pods-Proyecto AlexTests";
+			sourceTree = "<group>";
+		};
+		339D8E48127E6D62784FDD6F89606971 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC78FB2D2FA8F9FE8EFDE9DABFD13B13 /* Info.plist */,
+				454572CEC575CB0FB0876317D71BEF9D /* SwipeCellKit.modulemap */,
+				61FC356E1A380B1D13051138D7D32A25 /* SwipeCellKit.xcconfig */,
+				EABE984EFA9205F396C09F5013AE7FB7 /* SwipeCellKit-dummy.m */,
+				A1D4F4B9A39C83D36DFB7EB8F474ED6D /* SwipeCellKit-prefix.pch */,
+				D1B119976538BA19481553498F868407 /* SwipeCellKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeCellKit";
+			sourceTree = "<group>";
+		};
+		37AA68EBCF51AA4715D2B8B008710913 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B74867A6CF3751B6367FD17A6F312B33 /* Crashlytics */,
+				DD3E5F5781B2112F07F8ECAFE9F6E852 /* Fabric */,
+				88F6818A6D494954277220FB1DF088DF /* SwipeCellKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59566D7DF256A41076DC32A861F63A26 /* Pods-Proyecto Alex */ = {
+			isa = PBXGroup;
+			children = (
+				12671ACEB5BD4968ABCD2F54F09D9D31 /* Info.plist */,
+				54C85E3A24E08A8EB1515782C2D1FE00 /* Pods-Proyecto Alex.modulemap */,
+				E6065A25B03E14EC83A876902414D2CE /* Pods-Proyecto Alex-acknowledgements.markdown */,
+				2757A1C2D71AC12343E9E8B99F387273 /* Pods-Proyecto Alex-acknowledgements.plist */,
+				1F8A5DB29D9FDCCC5534D8E25AA56F37 /* Pods-Proyecto Alex-dummy.m */,
+				96AD93D85BE7BC8A8308EAA3D1AFBEB9 /* Pods-Proyecto Alex-frameworks.sh */,
+				0B5DE5F9AC0056AF47BE4585006F9D69 /* Pods-Proyecto Alex-resources.sh */,
+				DC87922FF074CF95F4B3F3F09782CCED /* Pods-Proyecto Alex-umbrella.h */,
+				1C062464E9DF2F945F0CA0DC366F0B3F /* Pods-Proyecto Alex.debug.xcconfig */,
+				7B7C55E773F90825647E752DDBBD22A3 /* Pods-Proyecto Alex.release.xcconfig */,
+			);
+			name = "Pods-Proyecto Alex";
+			path = "Target Support Files/Pods-Proyecto Alex";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				37AA68EBCF51AA4715D2B8B008710913 /* Pods */,
+				9A7F8F77F495DAE058A0FC6201A8D710 /* Products */,
+				CBEFE256E413FA40D4A588200278915E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88F6818A6D494954277220FB1DF088DF /* SwipeCellKit */ = {
+			isa = PBXGroup;
+			children = (
+				0D8469DAB91A3EA7172BD5E86232AC50 /* Extensions.swift */,
+				89E0E3E16C4692FDE9B8A2129392262C /* Swipeable.swift */,
+				975FE5BBDB83CD49D79B03FCF72E886A /* SwipeAction.swift */,
+				E5752C7479C83CFAEB29F3E900DAC6B4 /* SwipeActionButton.swift */,
+				367E7287EBB7743054680B903AADF19B /* SwipeActionsView.swift */,
+				3A3106D6D8A48027D978A26A249406E7 /* SwipeActionTransitioning.swift */,
+				A8177AAE9030EB5F51BF73C368994427 /* SwipeAnimator.swift */,
+				AF25974A17E33FB8DBF6D0A3DD6BE04B /* SwipeExpanding.swift */,
+				DC52D77CEFE6D2943D125B6B7DB44DC4 /* SwipeExpansionStyle.swift */,
+				AB1D1592ECEF00C3A0562239D55407B7 /* SwipeFeedback.swift */,
+				42A14704BF8FEDF1708BA6BC55B42861 /* SwipeTableOptions.swift */,
+				39209A589C66C446B548777A67DA1479 /* SwipeTableViewCell.swift */,
+				0F2CC467AE1E0B837961BAB0963783E4 /* SwipeTableViewCell+Accessibility.swift */,
+				2829416849E85C4C92028CDCDE34DC7B /* SwipeTableViewCell+Display.swift */,
+				2E4035651F097DA7497D51A519359922 /* SwipeTableViewCellDelegate.swift */,
+				84C31400E9B695E5CB54CDD335114AE5 /* SwipeTransitionLayout.swift */,
+				339D8E48127E6D62784FDD6F89606971 /* Support Files */,
+			);
+			name = SwipeCellKit;
+			path = SwipeCellKit;
+			sourceTree = "<group>";
+		};
+		89E0098B0F67E2BD6886F8363AAFA607 /* Pods-Proyecto AlexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF5F316B950FA5E990F7B1102768C4F /* Info.plist */,
+				6C1581800CC5B6D729C9428EA514B054 /* Pods-Proyecto AlexUITests.modulemap */,
+				CC3A8A8E6262CE10B64E3707DC90E6A5 /* Pods-Proyecto AlexUITests-acknowledgements.markdown */,
+				F0398AE5D0A3C308D24F6E7F4D1E7769 /* Pods-Proyecto AlexUITests-acknowledgements.plist */,
+				850864F01C64FE429B44EE1B65603878 /* Pods-Proyecto AlexUITests-dummy.m */,
+				04C92CD1E750E50EA7848DE17EBB539E /* Pods-Proyecto AlexUITests-frameworks.sh */,
+				72825CF2E6C5FF2BBAC4D9D520745DE2 /* Pods-Proyecto AlexUITests-resources.sh */,
+				70301BCA1A3697ED2ACED0F5DB8F942F /* Pods-Proyecto AlexUITests-umbrella.h */,
+				D7B92405CB8F4981E17938A69AE04142 /* Pods-Proyecto AlexUITests.debug.xcconfig */,
+				2B00A80AB5E8AADF94F003FAD2068B48 /* Pods-Proyecto AlexUITests.release.xcconfig */,
+			);
+			name = "Pods-Proyecto AlexUITests";
+			path = "Target Support Files/Pods-Proyecto AlexUITests";
+			sourceTree = "<group>";
+		};
+		9A7F8F77F495DAE058A0FC6201A8D710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E473354F95CCB1456B2F98C1D1B48386 /* Pods_Proyecto_Alex.framework */,
+				500EB99FDC28A99E8E9CA7050CF0F15C /* Pods_Proyecto_AlexTests.framework */,
+				E4F80BAF81D7D34D72814FD3A7F1279F /* Pods_Proyecto_AlexUITests.framework */,
+				0ECFC3969496B9418BB977C11B468930 /* SwipeCellKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74867A6CF3751B6367FD17A6F312B33 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				D5F874158D120687A0F744BEF910760B /* ANSCompatibility.h */,
+				ED057CA43C02587F5A0FF33D09132EF0 /* Answers.h */,
+				05C543E9145E90308AE2E3FD15A9F988 /* CLSAttributes.h */,
+				80BDEDEA560D6861EA00E735B9E2CB8D /* CLSLogging.h */,
+				822F95EBD69864EC3C420FE0D9AEC0C8 /* CLSReport.h */,
+				5A72446AFF46F01A15AE031F524E37D1 /* CLSStackFrame.h */,
+				630BCDA67843FC89E4A53A46DE5EFD06 /* Crashlytics.h */,
+				B8E72B05B60EE01A3969A98E6212CA34 /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+		B8E72B05B60EE01A3969A98E6212CA34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74937367D33BF35CC5BCEF9AC8AA7F3B /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBEFE256E413FA40D4A588200278915E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59566D7DF256A41076DC32A861F63A26 /* Pods-Proyecto Alex */,
+				041D738AA66365EDA1F51690A6E6D3EF /* Pods-Proyecto AlexTests */,
+				89E0098B0F67E2BD6886F8363AAFA607 /* Pods-Proyecto AlexUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D34C26C58C44340A7F65AD44827CD1A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55734F71955A1E03F1E7838EBF148CB /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD3E5F5781B2112F07F8ECAFE9F6E852 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				996435E892E37DAE2E6ACA413ADAEEC3 /* FABAttributes.h */,
+				DA7813F268536A7241B5F5D7C1182FAE /* Fabric.h */,
+				D34C26C58C44340A7F65AD44827CD1A1 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01A12E2D52D3DDF32A98EADD45B11938 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD99DA0ED5CC54DDD6E3E62B26FD2BD6 /* SwipeCellKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC0890CFA3072BB7D4F296A4513FD18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0977DF4BB45C9CB06168A23667D21DD /* Pods-Proyecto AlexTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE19E30756A189DB75FFC72E0D76A18E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8A8F53DBF02B321F839BC7634E782D /* Pods-Proyecto Alex-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF36F4F2FD621052A7D95701CCDACC25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5A7F4D38F00B6A851B64E7F421B4F6 /* Pods-Proyecto AlexUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86043456CB1A60C716123B1D870952BC /* Pods-Proyecto AlexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2DDEDDC1B20F3D0D545CD57955E1C30 /* Build configuration list for PBXNativeTarget "Pods-Proyecto AlexTests" */;
+			buildPhases = (
+				505ED852EE0F24053D0B3313E35D10AB /* Sources */,
+				D2F66B04A191FFDBDCA6D0797B063AC9 /* Frameworks */,
+				ADC0890CFA3072BB7D4F296A4513FD18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Proyecto AlexTests";
+			productName = "Pods-Proyecto AlexTests";
+			productReference = 500EB99FDC28A99E8E9CA7050CF0F15C /* Pods_Proyecto_AlexTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A72858B10BCA5A6B9EE7400026FBE110 /* Pods-Proyecto AlexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95F96FCE4D837C473173E01C251B791 /* Build configuration list for PBXNativeTarget "Pods-Proyecto AlexUITests" */;
+			buildPhases = (
+				C347B36B635608D74FC509C10C7641D0 /* Sources */,
+				7B6C5E265EAA687E44D80CDA9F871414 /* Frameworks */,
+				EF36F4F2FD621052A7D95701CCDACC25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Proyecto AlexUITests";
+			productName = "Pods-Proyecto AlexUITests";
+			productReference = E4F80BAF81D7D34D72814FD3A7F1279F /* Pods_Proyecto_AlexUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E75E74742285F47593AB60F4CC109501 /* SwipeCellKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5373F4FCC03B7ECA3D1841D594632E8 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildPhases = (
+				43A2801E90C8C3B4BBA64806A73C33D1 /* Sources */,
+				A120A9948D9EB275943D588F3135E691 /* Frameworks */,
+				01A12E2D52D3DDF32A98EADD45B11938 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCellKit;
+			productName = SwipeCellKit;
+			productReference = 0ECFC3969496B9418BB977C11B468930 /* SwipeCellKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA6F9967C3876E26A27031FCDA2B3551 /* Pods-Proyecto Alex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD05F64F9BF3D72C550E1E50DFC83BB4 /* Build configuration list for PBXNativeTarget "Pods-Proyecto Alex" */;
+			buildPhases = (
+				964CE73ACDE1119D0FFC62C92AB49200 /* Sources */,
+				4EF743667DB12B9C72418381C1BD9C88 /* Frameworks */,
+				DE19E30756A189DB75FFC72E0D76A18E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77AABFA67D451CB2FC05BCB900873DE /* PBXTargetDependency */,
+			);
+			name = "Pods-Proyecto Alex";
+			productName = "Pods-Proyecto Alex";
+			productReference = E473354F95CCB1456B2F98C1D1B48386 /* Pods_Proyecto_Alex.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9A7F8F77F495DAE058A0FC6201A8D710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6F9967C3876E26A27031FCDA2B3551 /* Pods-Proyecto Alex */,
+				86043456CB1A60C716123B1D870952BC /* Pods-Proyecto AlexTests */,
+				A72858B10BCA5A6B9EE7400026FBE110 /* Pods-Proyecto AlexUITests */,
+				E75E74742285F47593AB60F4CC109501 /* SwipeCellKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A2801E90C8C3B4BBA64806A73C33D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC154CC14D9A7A6032575CAE6A11B94 /* Extensions.swift in Sources */,
+				9D170C54B8C3BF99F600C8863AA8A6E7 /* Swipeable.swift in Sources */,
+				5F208C7034CD889B2FAE0A9069A3405A /* SwipeAction.swift in Sources */,
+				B67C045B86B9110D6719737410A08B83 /* SwipeActionButton.swift in Sources */,
+				069FBCF1C817E650B842DB928D80EF05 /* SwipeActionsView.swift in Sources */,
+				5EFC5E157EEA541D49847D7500A1E3C8 /* SwipeActionTransitioning.swift in Sources */,
+				99ABE16A6014590830D77A2A40F34DB6 /* SwipeAnimator.swift in Sources */,
+				7567D8CE79371EB5F0E03236AB6BC863 /* SwipeCellKit-dummy.m in Sources */,
+				76991F7644ADD9B98915CE1DEACE580B /* SwipeExpanding.swift in Sources */,
+				5820128C9156A095A7D5AE5E02D3462E /* SwipeExpansionStyle.swift in Sources */,
+				37AD4125F7AC987EF1F27F7D2D13DB2C /* SwipeFeedback.swift in Sources */,
+				3B10641CFFB32AF4AE332C44778293AC /* SwipeTableOptions.swift in Sources */,
+				F195C43CCBB8E718545C8CC4BD937CBF /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				37F407FEB50BC5C6C492B81E03C763BB /* SwipeTableViewCell+Display.swift in Sources */,
+				04ECAA3D4ED1AD8FD0359B62F8A13C76 /* SwipeTableViewCell.swift in Sources */,
+				B5303D5F36BD7E78A7243310794D5AB2 /* SwipeTableViewCellDelegate.swift in Sources */,
+				188E2DCF73D53B207DAAC93FDF2ECC21 /* SwipeTransitionLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505ED852EE0F24053D0B3313E35D10AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639AFC689C0FA314B270CA1B568FA54B /* Pods-Proyecto AlexTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964CE73ACDE1119D0FFC62C92AB49200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEE4EBB327D59B033095F40E64215BD /* Pods-Proyecto Alex-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C347B36B635608D74FC509C10C7641D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CB50E3CABD6EA88BBE0282DA4BE7BD /* Pods-Proyecto AlexUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D77AABFA67D451CB2FC05BCB900873DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = E75E74742285F47593AB60F4CC109501 /* SwipeCellKit */;
+			targetProxy = 2027116AE4093E8719C2A39472737230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29316E3DFC7E24457C9D5D86722A7DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FC356E1A380B1D13051138D7D32A25 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		583438C5AD1791B62A2A265F7745ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7C55E773F90825647E752DDBBD22A3 /* Pods-Proyecto Alex.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Proyecto Alex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Proyecto Alex/Pods-Proyecto Alex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Proyecto_Alex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C5C1265A0D1A90B80BD715A6D3F33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C062464E9DF2F945F0CA0DC366F0B3F /* Pods-Proyecto Alex.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Proyecto Alex/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Proyecto Alex/Pods-Proyecto Alex.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Proyecto_Alex;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C22DF15299735760A0E07EF3611B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239005CFB2D6919BC94A24E1AFBF224C /* Pods-Proyecto AlexTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Proyecto AlexTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Proyecto AlexTests/Pods-Proyecto AlexTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Proyecto_AlexTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6FA032147AB4F90B398ECB98A74A4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B92405CB8F4981E17938A69AE04142 /* Pods-Proyecto AlexUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Proyecto AlexUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Proyecto AlexUITests/Pods-Proyecto AlexUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Proyecto_AlexUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C28C4AAB53A39F53E66F80514FF3A8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61FC356E1A380B1D13051138D7D32A25 /* SwipeCellKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDF8C4C5F593840545DC0591216AA6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3880D0BC2572436F0F75F10A2B30844 /* Pods-Proyecto AlexTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Proyecto AlexTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Proyecto AlexTests/Pods-Proyecto AlexTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Proyecto_AlexTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F33BD1C1CDD47ED85DA56ED3759B6A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B00A80AB5E8AADF94F003FAD2068B48 /* Pods-Proyecto AlexUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Proyecto AlexUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Proyecto AlexUITests/Pods-Proyecto AlexUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Proyecto_AlexUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD05F64F9BF3D72C550E1E50DFC83BB4 /* Build configuration list for PBXNativeTarget "Pods-Proyecto Alex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C5C1265A0D1A90B80BD715A6D3F33F /* Debug */,
+				583438C5AD1791B62A2A265F7745ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2DDEDDC1B20F3D0D545CD57955E1C30 /* Build configuration list for PBXNativeTarget "Pods-Proyecto AlexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C22DF15299735760A0E07EF3611B62E /* Debug */,
+				CDF8C4C5F593840545DC0591216AA6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5373F4FCC03B7ECA3D1841D594632E8 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29316E3DFC7E24457C9D5D86722A7DB6 /* Debug */,
+				C28C4AAB53A39F53E66F80514FF3A8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95F96FCE4D837C473173E01C251B791 /* Build configuration list for PBXNativeTarget "Pods-Proyecto AlexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FA032147AB4F90B398ECB98A74A4D1 /* Debug */,
+				F33BD1C1CDD47ED85DA56ED3759B6A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

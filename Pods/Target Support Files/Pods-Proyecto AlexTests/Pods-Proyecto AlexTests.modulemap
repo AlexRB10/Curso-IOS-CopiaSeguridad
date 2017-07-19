@@ -1,0 +1,6 @@
+framework module Pods_Proyecto_AlexTests {
+  umbrella header "Pods-Proyecto AlexTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

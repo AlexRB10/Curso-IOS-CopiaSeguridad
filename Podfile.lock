@@ -1,0 +1,19 @@
+PODS:
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.12)
+  - SwipeCellKit (1.9.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - SwipeCellKit (~> 1.9)
+
+SPEC CHECKSUMS:
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  SwipeCellKit: 893661973276ae3512a84ac0a47055923b10731e
+
+PODFILE CHECKSUM: 48c9a338ee02f552357aed01ccddae0f067da76a
+
+COCOAPODS: 1.2.1
